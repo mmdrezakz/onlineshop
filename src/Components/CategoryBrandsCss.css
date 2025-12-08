@@ -1,0 +1,40 @@
+.mySwiper3 {
+  width:80%;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.mySwiper3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: calc((100% - 30px) / 2) !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-prev{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #807878ad;
+    
+}
+.swiper-button-next{
+    position: absolute;
+    left: 0;
+    top: 0;
+        color: #aeadadad;
+
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+
+  top: 50%; 
+  padding: 8px;
+  transform: translateY(-50%);
+}

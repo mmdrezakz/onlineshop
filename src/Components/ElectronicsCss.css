@@ -1,0 +1,23 @@
+
+.MySwiper4 {
+  width:100%;
+  height: 100%;
+}
+
+.MySwiper4 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.swiper-slide4 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper4 {
+  margin-left: auto;
+  margin-right: auto;
+}
