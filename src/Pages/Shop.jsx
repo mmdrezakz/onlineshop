@@ -61,7 +61,7 @@ export default function Shop({category}) {
   {/* Filters */}
   <div
     name="Filters"
-    className="bg-white shadow-md p-4 border border-green-300 rounded-xl h-fit text-slate-700 text-sm md:text-base lg:text-lg"
+    className="bg-white shadow-md ml-5 p-4 border border-green-300 rounded-xl h-fit text-slate-700 text-sm md:text-base lg:text-lg"
   >
     <p className="flex items-center gap-2 mb-6 font-bold text-base md:text-lg">
       <i className="bi bi-funnel"></i> Filters
@@ -203,7 +203,7 @@ function Boxes({products,sort,searchTerm,minPrice,maxPrice,reviews,rate,isLoadin
               <Link to={`/shop/${item.id}`} >
               <img src={item.image} alt={item.title} className='mx-auto h-32' />
               <p className='font-bold text-sm'>{
-                item.title.length > 16 ? item.title.slice(0,16) +"..." : item.title
+                item.title.length > 11 ? item.title.slice(0,11) +"..." : item.title
               }
               </p>
               <p className="text-gray-500 text-sm line-clamp-2">{
