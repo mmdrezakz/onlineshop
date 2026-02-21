@@ -1,17 +1,80 @@
-# React + Vite
+# فروشگاه آنلاین (در حال توسعه) 🚧
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in%20development-yellow?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js">
+  <img src="https://img.shields.io/badge/Tailwind-CSS-blue?style=for-the-badge&logo=tailwind-css" alt="Tailwind">
+</p>
 
-Currently, two official plugins are available:
+<div align="center">
+  <h3>
+    🛍️ <a href="https://onlineshop-mu-lilac.vercel.app/">مشاهده دموی آنلاین</a>
+    <span> · </span>
+    🐛 <a href="mailto:mellboybeatprod@gmail.com?subject=گزارش%20باگ%20-%20فروشگاه%20آنلاین">گزارش باگ</a>
+    <span> · </span>
+    💡 <a href="mailto:mellboybeatprod@gmail.com?subject=پیشنهاد%20ویژگی%20-%20فروشگاه%20آنلاین">پیشنهاد ویژگی</a>
+  </h3>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br/>
 
-## React Compiler
+> **آدرس سایت:** [https://onlineshop-mu-lilac.vercel.app/](https://onlineshop-mu-lilac.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 درباره پروژه
+این پروژه یک فروشگاه آنلاین مدرن هستش که با هدف یادگیری و پیاده‌سازی مفاهیم پیشرفته فرانت‌اند و بک‌اند شروع شده. در حال حاضر تمرکز اصلی روی **طراحی رابط کاربری (UI)** و **تجربه کاربری (UX)** هستش و به تدریج امکانات بک‌اند بهش اضافه میشه.
 
-## Expanding the ESLint configuration
+## ✨ وضعیت فعلی (نسخه 0.1.0)
+✅ **قسمت‌های پیاده‌سازی شده:**
+- [x] ساختار اصلی منو و ناوبری
+- [x] صفحه اصلی (در حال تکمیل محتوا)
+- [x] صفحه محصولات با دسته‌بندی (نمایش پایه)
+- [x] آیکون سبد خرید با نمایش تعداد
+- [x] صفحه‌های ثبت‌نام و ورود (UI اولیه)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# onlineshop" 
+🚧 **در حال توسعه:**
+- [ ] نمایش محصولات واقعی در صفحات
+- [ ] صفحه جزئیات محصول
+- [ ] منطق سبد خرید (افزودن، حذف، تغییر تعداد)
+- [ ] صفحه پرداخت
+- [ ] اتصال به API برای احراز هویت
+
+## 🛠 تکنولوژی‌های استفاده شده
+<div align="center">
+  
+[![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+</div>
+
+- **فریم‌ورک**: Next.js 14 با اپ روت
+- **زبان**: TypeScript
+- **استایل**: Tailwind CSS
+- **مدیریت状態**: Context API (برای سبد خرید و احراز هویت)
+
+## 🚀 شروع سریع برای توسعه‌دهندگان
+
+### پیش‌نیازها
+- Node.js (نسخه 18 یا بالاتر)
+- npm یا yarn یا pnpm
+
+### نصب و راه‌اندازی
+```bash
+# کلون کردن مخزن
+git clone https://github.com/yourusername/onlineshop.git
+cd onlineshop
+
+# نصب وابستگی‌ها
+npm install
+# یا
+yarn install
+# یا
+pnpm install
+
+# اجرا در محیط توسعه
+npm run dev
+# یا
+yarn dev
+# یا
+pnpm dev
